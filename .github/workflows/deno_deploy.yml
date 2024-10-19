@@ -31,6 +31,6 @@ jobs:
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: rockymyx-wechat-article-exporter
+          project: rockymyx-wechat-exporter
           entrypoint: server/index.ts
           root: .output
